@@ -1,0 +1,9 @@
+*.exe
+*.pidb 
+*.resources 
+*.userprefs 
+test-results/ 
+bin/ 
+*.suo 
+*.user 
+obj/
