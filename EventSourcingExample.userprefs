@@ -1,24 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TrackShips/ArrivalEvent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrackShipsTest/AggregateTest.cs">
     <Files>
-      <File FileName="EventSourcingExample/Main.cs" Line="13" Column="1" />
+      <File FileName="EventSourcingExample/Main.cs" Line="1" Column="1" />
       <File FileName="TrackShips/MyClass.cs" Line="1" Column="1" />
       <File FileName="TrackShips/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="TrackShips/Ship.cs" Line="29" Column="13" />
-      <File FileName="TrackShipsTest/Test.cs" Line="27" Column="33" />
+      <File FileName="TrackShips/Ship.cs" Line="1" Column="1" />
+      <File FileName="TrackShipsTest/Test.cs" Line="35" Column="21" />
       <File FileName="TrackShips/Port.cs" Line="7" Column="17" />
-      <File FileName="TrackShips/Cargo.cs" Line="15" Column="1" />
-      <File FileName="TrackShips/ArrivalEvent.cs" Line="20" Column="21" />
-      <File FileName="TrackShips/DepartureEvent.cs" Line="22" Column="1" />
-      <File FileName="TrackShips/DomainEvent.cs" Line="20" Column="1" />
+      <File FileName="TrackShips/Cargo.cs" Line="1" Column="1" />
+      <File FileName="TrackShips/ArrivalEvent.cs" Line="7" Column="21" />
+      <File FileName="TrackShips/DepartureEvent.cs" Line="1" Column="1" />
+      <File FileName="TrackShips/DomainEvent.cs" Line="1" Column="1" />
+      <File FileName="TrackShipsTest/AggregateTest.cs" Line="32" Column="24" />
+      <File FileName="TrackShipsTest/DelegateExamples.cs" Line="11" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="EventSourcingExample" expanded="True" />
           <Node name="TrackShips" expanded="True" />
-          <Node name="TrackShipsTest" expanded="True" />
+          <Node name="TrackShipsTest" expanded="True">
+            <Node name="AggregateTest.cs" selected="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">

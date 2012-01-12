@@ -47,4 +47,10 @@
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\TrackShips\TrackShips.csproj">
+      <Project>{FD25C836-FB19-43D3-8E65-E0A8DABF1A91}</Project>
+      <Name>TrackShips</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

@@ -1,16 +1,16 @@
 using System;
 using System.Linq;
-using TrackShips;
-namespace EventSourcingExample
+using NUnit.Framework;
+
+namespace TrackShipsTest
 {
-	class MainClass
+	[TestFixture()]
+	public class AggregateTest
 	{
-		public static void Main (string[] args)
+		[Test()]
+		public void TestCase ()
 		{
-			MyClass test = new MyClass();
-			Console.WriteLine ("Hello {0}",test);
-			
-		    string sentence = "the quick brown fox jumps over the lazy dog";
+			 string sentence = "the quick brown fox jumps over the lazy dog";
 
             // Split the string into individual words.
             string[] words = sentence.Split(' ');
@@ -20,19 +20,17 @@ namespace EventSourcingExample
             string reversed = words.Aggregate("initval", (workingSentence, next) =>
                                                   next + " " + workingSentence);
 
-            Console.WriteLine(reversed);
+            
+			Assert.AreEqual("dog lazy the over jumps fox brown quick the initval",reversed);
 
-            // This code produces the following output:
-            //
-            // dog lazy the over jumps fox brown quick the 
-			
-			
+		}
+		[Test]
+		public void AggregateExpenses(){
 			int[] expenses = new int[]{100, -12, -8, 1, -14};
 			
 			int total = expenses.Aggregate((sum,next) => sum+next);
 			
-			Console.WriteLine ("You own {0} EUR",total);
-			
+			Assert.AreEqual(67,total);
 			
 		}
 	}
