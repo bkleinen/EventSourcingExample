@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcingExample", "EventSourcingExample\EventSourcingExample.csproj", "{50431510-E599-4820-ABC3-8F3A0172DF1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackShips", "TrackShips\TrackShips.csproj", "{FD25C836-FB19-43D3-8E65-E0A8DABF1A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackShipsTest", "TrackShipsTest\TrackShipsTest.csproj", "{52815031-B86E-4EDA-86A0-7C6A1DBCF832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50431510-E599-4820-ABC3-8F3A0172DF1C}.Debug|x86.ActiveCfg = Debug|x86
+		{50431510-E599-4820-ABC3-8F3A0172DF1C}.Debug|x86.Build.0 = Debug|x86
+		{50431510-E599-4820-ABC3-8F3A0172DF1C}.Release|x86.ActiveCfg = Release|x86
+		{50431510-E599-4820-ABC3-8F3A0172DF1C}.Release|x86.Build.0 = Release|x86
+		{52815031-B86E-4EDA-86A0-7C6A1DBCF832}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52815031-B86E-4EDA-86A0-7C6A1DBCF832}.Debug|x86.Build.0 = Debug|Any CPU
+		{52815031-B86E-4EDA-86A0-7C6A1DBCF832}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{52815031-B86E-4EDA-86A0-7C6A1DBCF832}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{52815031-B86E-4EDA-86A0-7C6A1DBCF832}.Release|x86.ActiveCfg = Release|Any CPU
+		{52815031-B86E-4EDA-86A0-7C6A1DBCF832}.Release|x86.Build.0 = Release|Any CPU
+		{FD25C836-FB19-43D3-8E65-E0A8DABF1A91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD25C836-FB19-43D3-8E65-E0A8DABF1A91}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD25C836-FB19-43D3-8E65-E0A8DABF1A91}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD25C836-FB19-43D3-8E65-E0A8DABF1A91}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = EventSourcingExample\EventSourcingExample.csproj
+	EndGlobalSection
+EndGlobal
